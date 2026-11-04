@@ -1,0 +1,91 @@
+/* Warm, high-contrast theme. Every color is a token so dark mode just swaps values. */
+:root {
+  --bg: #fff6ec;
+  --surface: #ffffff;
+  --ink: #2b2118;
+  --ink-soft: #5c4a3c;
+  --accent: #c2410c;      /* warm terracotta: primary buttons */
+  --accent-ink: #ffffff;
+  --calm: #2f6f62;        /* deep teal: success / done */
+  --line: #ead8c4;
+  --radius: 20px;
+  --tap: 64px;            /* minimum tap target: she taps from arm's length */
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1d1712;
+    --surface: #2a221b;
+    --ink: #fbefe2;
+    --ink-soft: #d8c3ae;
+    --accent: #f08a5d;
+    --accent-ink: #1d1712;
+    --calm: #7cc7b4;
+    --line: #43362b;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  /* ui-rounded = SF Pro Rounded on iPad/iPhone/Mac: friendly, built in, works offline */
+  font-family: ui-rounded, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent;
+}
+h1 { font-size: 2.2rem; line-height: 1.15; margin: 0 0 0.5rem; }
+.lead { font-size: 1.2rem; color: var(--ink-soft); margin: 0; }
+
+/* Phone: content on top, tab bar on the bottom (above the iPhone home indicator). */
+.app { min-height: 100dvh; display: flex; flex-direction: column-reverse; }
+.main {
+  flex: 1;
+  padding: max(24px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) 24px max(20px, env(safe-area-inset-left));
+}
+.nav {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  background: var(--surface);
+  border-top: 2px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.nav-item {
+  flex: 1;
+  min-height: var(--tap);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.nav-icon { font-size: 1.5rem; line-height: 1; }
+.nav-item[aria-current='page'] { color: var(--accent); }
+
+/* iPad landscape (and bigger): nav becomes a left rail, content gets room to breathe. */
+@media (min-width: 900px) {
+  .app { flex-direction: row; }
+  .nav {
+    position: sticky;
+    top: 0;
+    height: 100dvh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    width: 128px;
+    border-top: 0;
+    border-right: 2px solid var(--line);
+    padding: env(safe-area-inset-top) 8px env(safe-area-inset-bottom) max(8px, env(safe-area-inset-left));
+  }
+  .nav-item { flex: 0; min-height: 88px; border-radius: var(--radius); font-size: 0.9rem; }
+  .nav-item[aria-current='page'] { background: var(--bg); }
+  .main { padding: 40px 48px; }
+}
