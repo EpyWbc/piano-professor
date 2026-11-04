@@ -40,7 +40,8 @@
   font-size: 0.75rem;
   font-weight: 700;
   line-height: 1.15;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
+  hyphens: auto; /* break long labels at syllables (METRO-NOME), never mid-letter */
 }
 .kb-key:active { transform: scale(0.96); }
 .kb-key[aria-current] { background: var(--accent); border-color: #fff6ec; }

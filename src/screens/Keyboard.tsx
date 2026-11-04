@@ -76,7 +76,7 @@ export default function Keyboard({ params }: ScreenProps) {
                     aria-current={c === selected ? 'true' : undefined}
                     style={{ '--r': c.panel.row, '--c': c.panel.col } as CSSProperties}
                   >
-                    <span className="kb-key-label">{c.label}</span>
+                    <span className="kb-key-label">{c.label.replaceAll('/', '/​') /* zero-width space: lets "Sequence/Random/Single" wrap at slashes */}</span>
                     <span className="kb-key-num">{c.num}</span>
                   </a>
                 ))}
