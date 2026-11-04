@@ -28,6 +28,19 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,json}'],
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // the lazy abcjs Songs chunk is large
+        // abcjs fetches piano note samples from this CDN on first Play; keep them so songs play offline afterwards.
+        // ponytail: only notes already heard are cached; self-host the samples in public/ if fully-offline first play matters.
+        runtimeCaching: [
+          {
+            urlPattern: /^https:\/\/paulrosen\.github\.io\/midi-js-soundfonts\//,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'piano-sounds',
+              cacheableResponse: { statuses: [0, 200] },
+              expiration: { maxEntries: 400 },
+            },
+          },
+        ],
       },
     }),
   ],
