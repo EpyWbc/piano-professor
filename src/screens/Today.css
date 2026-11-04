@@ -1,0 +1,14 @@
+.today-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; max-width: 640px; }
+.today-stat { display: flex; flex-direction: column; color: var(--ink-soft); }
+.today-stat-value { font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: var(--ink); }
+.today-start { min-height: 96px; font-size: 1.5rem; max-width: 640px; }
+.today-ask { max-width: 560px; }
+.today-input {
+  min-height: var(--tap);
+  padding: 0 20px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--ink);
+  font: inherit;
+}
