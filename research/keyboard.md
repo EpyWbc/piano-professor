@@ -87,10 +87,10 @@ Which songs work with the teaching modes (all 50 demos?), and left-hand vs right
 ## Lighted keys
 VERIFIED (S3): keys light to show which notes to play during lessons. On/off via KEY LIGHTING (S1 name). Whether keys light during free play: UNVERIFIED.
 
-## Lists: UNVERIFIED (need photos)
-- **Timbres 000–254:** the panel prints 000–126; it reads "127–254 Refer to the manual". The first is apparently "000 Acoustic Grand Piano", but that isn't confirmed at this resolution.
-- **Rhythms 000–254:** the panel prints 000–155; the rest are in the manual.
-- **Demo songs (50):** not on the panel; in the manual.
+## Lists
+- **Timbres: VERIFIED (S2) for 000–131 except 103 and 115.** Transcribed from enlarged crops of the top-panel photo into `data/keyboards/jikada-61.json` (`tones`). Correction: the panel prints 000–131 (not 000–126) and reads "132-254 Refer to the manual". 000 is "Acoustic Grand Piano" (confirmed). Skipped as not legible: 103 ("U?llean Harp 1"), 115 ("Mellow F? 1"). Spellings kept as printed, e.g. 107/120 "Wood Barafon", 102 "Feedback Gt. 1", 127 "12-str. Gt 1".
+- **Rhythms: VERIFIED (S2) for 000–155 except 109, 110, 133, 143.** Transcribed into the profile (`rhythms`). The panel reads "156-254 Refer to the manual". Skipped as not legible: 109, 110 ("Pasodobl?"), 133 ("Espag Nol 1"?), 143 ("Fanatical Sand"?). Abbreviations kept as printed, e.g. 064 "8 Bt Rock Balld", 093 "Cntry Ballad", 075 "Reggae 12".
+- **Timbres 132–254, rhythms 156–254, demo songs (50):** UNVERIFIED, need the manual pages.
 
 ## Troubleshooting (S4, UNVERIFIED until checked against the manual)
 - No sound: power on, volume up, unplug headphones (speakers mute when plugged in), check the adapter.
