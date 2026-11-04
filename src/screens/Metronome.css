@@ -1,0 +1,36 @@
+/* Phone: one column. iPad landscape: big display left, controls right, no scrolling. */
+.met { display: grid; gap: 28px; align-items: center; }
+@media (min-width: 900px) {
+  .met { grid-template-columns: 1.2fr 1fr; gap: 48px; min-height: calc(100dvh - 80px); }
+}
+
+.met-display { display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center; }
+.met-bpm { display: flex; flex-direction: column; align-items: center; line-height: 1; }
+.met-bpm-num { font-size: clamp(6rem, 22vw, 10rem); font-weight: 800; font-variant-numeric: tabular-nums; }
+.met-bpm-unit { font-size: 1.1rem; color: var(--ink-soft); font-weight: 600; }
+.met-name { margin: 0; font-size: 1.4rem; color: var(--ink-soft); }
+.met-name strong { color: var(--ink); }
+
+.met-dots { display: flex; justify-content: center; gap: clamp(14px, 3vw, 28px); padding: 12px 0; }
+.met-dot {
+  width: clamp(56px, 13vw, 96px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--calm);
+  opacity: 0.25; /* reduced motion: the beat is just this fade to full */
+}
+.met-dot-accent { background: var(--accent); }
+.met-dot-on { opacity: 1; animation: met-pop 0.18s ease-out; }
+@keyframes met-pop { from { transform: scale(1.3); } to { transform: scale(1); } }
+
+.met-go { width: 100%; max-width: 420px; min-height: 112px; font-size: 2rem; }
+.met-go-stop { background: var(--ink); color: var(--bg); }
+
+.met-controls { display: flex; flex-direction: column; gap: 24px; }
+.met-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.met-steps .btn { min-height: 88px; padding: 0; font-size: 1.6rem; }
+.met-slider { width: 100%; height: var(--tap); accent-color: var(--accent); }
+.met-beats { display: flex; align-items: center; gap: 12px; font-weight: 600; }
+.met-beats span { flex: 1; }
+.met-beats .btn { width: var(--tap); padding: 0; font-size: 1.4rem; }
+.met-tap { min-height: 88px; font-size: 1.4rem; }
