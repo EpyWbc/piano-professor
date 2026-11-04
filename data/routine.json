@@ -1,0 +1,54 @@
+{
+  "segments": [
+    {
+      "id": "warmup",
+      "title": "Warm-up",
+      "minutes": 3,
+      "emoji": "🙌",
+      "instructions": [
+        "Roll your shoulders and shake out your hands.",
+        "Spread your fingers wide, then make a soft fist. Five times.",
+        "Right hand: thumb on middle C. Play C D E F G, then back down. Slow and even.",
+        "Left hand: pinky on the C below. Play C D E F G, then back down.",
+        "Keep your wrists loose and your fingers curved, like holding a ball."
+      ]
+    },
+    {
+      "id": "technique",
+      "title": "Technique",
+      "minutes": 5,
+      "emoji": "🎯",
+      "metronome": true,
+      "instructions": [
+        "Turn on the metronome if you like, and play one note per click.",
+        "Right hand: C D E F G and back, three times.",
+        "Left hand: the same pattern, three times.",
+        "Now try both hands together, very slowly.",
+        "Feeling good? Try the C scale: thumb tucks under after E."
+      ]
+    },
+    {
+      "id": "song",
+      "title": "Song work",
+      "minutes": 6,
+      "emoji": "🎵",
+      "instructions": [
+        "Play the first line slowly. Mistakes are fine.",
+        "Repeat any tricky bar three times, then go on."
+      ]
+    },
+    {
+      "id": "free",
+      "title": "Free play",
+      "minutes": 4,
+      "emoji": "🌈",
+      "instructions": [
+        "Play anything you like!",
+        "Pick a new sound on your keyboard and explore it.",
+        "Make up a little tune using only the black keys.",
+        "No wrong notes here. Just enjoy it."
+      ]
+    }
+  ],
+  "short": { "warmup": 2, "technique": 3, "song": 3, "free": 2 }
+}

@@ -1,0 +1,90 @@
+/* ---- Start + end screens ---- */
+.pr-start, .pr-end { max-width: 760px; margin: 0 auto; }
+.pr-choice { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.pr-choice .btn { min-height: 80px; font-size: 1.3rem; padding: 0 12px; }
+.pr-plan { list-style: none; margin: 0; display: flex; flex-direction: column; gap: 8px; font-size: 1.4rem; }
+.pr-plan li { display: flex; justify-content: space-between; gap: 16px; }
+.pr-plan-min { color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.pr-big { min-height: 112px; font-size: 2rem; }
+.pr-go { font-size: 2.6rem; }
+.pr-end { text-align: center; align-items: center; padding-top: 6vh; }
+.pr-end-emoji { font-size: 6rem; line-height: 1; }
+.pr-end .btn { width: 100%; max-width: 480px; }
+
+/* ---- Running: covers the whole screen (nav included) so nothing distracts. ---- */
+.pr-run {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow: auto; /* phone: the stacked layout scrolls */
+  padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+}
+
+.pr-strip { list-style: none; margin: 0; padding: 0; display: flex; gap: 6px; }
+.pr-strip li {
+  flex-basis: 0;
+  min-width: 0;
+  padding: 6px 10px;
+  border-radius: 12px;
+  border: 2px solid var(--line);
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pr-strip .pr-strip-done { background: var(--calm); border-color: var(--calm); color: var(--bg); }
+.pr-strip .pr-strip-now { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+.pr-title { margin: 0; font-size: clamp(2rem, 5vw, 3rem); }
+
+.pr-next { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; border-color: var(--accent); font-size: 1.4rem; }
+.pr-next p { margin: 0; }
+.pr-next .btn { min-height: 80px; font-size: 1.3rem; }
+
+.pr-body { display: flex; flex-direction: column; gap: 20px; }
+.pr-side { order: -1; display: flex; flex-direction: column; gap: 12px; }
+
+.pr-steps { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 10px; font-size: 1.5rem; line-height: 1.35; }
+
+.pr-song { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+.pr-song-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+.pr-song-head h2 { margin: 0; font-size: 1.8rem; }
+.pr-song-tip { margin: 0; color: var(--ink-soft); }
+
+.pr-clock {
+  font-size: clamp(5rem, 22vw, 10rem);
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.pr-clock-paused { color: var(--ink-soft); }
+.pr-paused { margin: 0; text-align: center; font-size: 1.4rem; font-weight: 700; color: var(--ink-soft); }
+.pr-pause { min-height: 128px; font-size: 2.4rem; }
+.pr-resume { background: var(--calm); color: var(--bg); }
+.pr-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.pr-buttons .btn { min-height: 88px; font-size: 1.4rem; padding: 0 8px; }
+
+.pr-met { display: flex; align-items: center; gap: 16px; }
+.pr-met .btn { flex: 1; min-height: 88px; font-size: 1.3rem; padding: 0 8px; }
+.pr-dot { width: 72px; aspect-ratio: 1; border-radius: 50%; background: var(--calm); opacity: 0.2; flex: none; }
+.pr-dot-on { opacity: 1; animation: pr-beat 0.3s ease-out forwards; }
+@keyframes pr-beat { from { transform: scale(1.3); opacity: 1; } to { transform: scale(1); opacity: 0.35; } }
+
+/* iPad landscape: instructions left, clock + buttons right, no page scroll (the score scrolls inside). */
+@media (min-width: 900px) {
+  .pr-run { overflow: hidden; padding-left: max(24px, env(safe-area-inset-left)); padding-right: max(24px, env(safe-area-inset-right)); }
+  .pr-body { flex: 1; min-height: 0; display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; }
+  .pr-main { min-height: 0; overflow: auto; }
+  .pr-side { order: 0; justify-content: center; }
+  .pr-clock { font-size: clamp(6rem, 13vw, 11rem); }
+  .pr-body-song .pr-steps { font-size: 1.25rem; }
+  .pr-body-song .pr-clock { font-size: clamp(5rem, 10vw, 8rem); }
+}
