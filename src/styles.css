@@ -89,3 +89,35 @@ h1 { font-size: 2.2rem; line-height: 1.15; margin: 0 0 0.5rem; }
   .nav-item[aria-current='page'] { background: var(--bg); }
   .main { padding: 40px 48px; }
 }
+
+/* ---- Shared primitives: screens use these, and put screen-only styles in src/screens/<Screen>.css ---- */
+.btn {
+  min-height: var(--tap);
+  padding: 0 28px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: var(--accent-ink);
+  font: inherit;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  touch-action: manipulation; /* no double-tap zoom delay on iOS */
+}
+.btn:active { transform: scale(0.97); }
+.btn-quiet { background: var(--surface); color: var(--ink); border: 2px solid var(--line); }
+.btn:disabled { opacity: 0.5; }
+.card {
+  background: var(--surface);
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+}
+.stack { display: flex; flex-direction: column; gap: 16px; }
+.row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
