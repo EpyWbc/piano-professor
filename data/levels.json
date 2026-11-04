@@ -1,0 +1,379 @@
+[
+  {
+    "n": 1,
+    "title": "Finding your way",
+    "goal": "Find any note on the keyboard and play simple tunes with your right hand.",
+    "intro": "Welcome! This level is all about getting comfortable. You'll learn how the keys are laid out, find Middle C, and play your first tunes with five fingers of your right hand. Go slowly; there's no rush at all.",
+    "items": [
+      {
+        "id": "l1-find-c",
+        "kind": "exercise",
+        "title": "Find all the Cs",
+        "steps": [
+          "Look at the black keys: they come in groups of two and groups of three.",
+          "Find a group of two black keys. The white key just to the LEFT of that group is C.",
+          "Play every C on the keyboard, from the lowest to the highest. Your keyboard has 61 keys, so there are 6 of them.",
+          "Middle C is the C closest to the middle of the keyboard. Play it and say \"Middle C\" out loud."
+        ],
+        "keyboardTip": "Pressing a key and hearing nothing? Check the volume with [MASTER VOL −/+](#/keyboard/control/master-vol)."
+      },
+      {
+        "id": "l1-name-white-keys",
+        "kind": "exercise",
+        "title": "Name the white keys",
+        "steps": [
+          "The white keys are named with just seven letters: C D E F G A B. Then it starts again at C.",
+          "Start on Middle C and walk up, saying each name: C, D, E, F, G, A, B, C.",
+          "Quick trick: D sits between the two black keys. F is just left of the group of three.",
+          "Close your eyes, point at a white key, open them and name it. Do this five times."
+        ]
+      },
+      {
+        "id": "l1-c-position",
+        "kind": "exercise",
+        "title": "Right hand in C position",
+        "steps": [
+          "Your fingers have numbers: thumb is 1, pointer is 2, middle is 3, ring is 4, little finger is 5.",
+          "Put your right thumb (1) on Middle C. Let the other fingers rest on D, E, F and G, one finger per key.",
+          "Curve your fingers gently, as if holding a small ball. Keep your wrist relaxed and level.",
+          "Play each finger in turn, 1 2 3 4 5, then back down 5 4 3 2 1. Slow and even is perfect."
+        ]
+      },
+      {
+        "id": "l1-five-note-patterns",
+        "kind": "exercise",
+        "title": "Simple five-note patterns",
+        "steps": [
+          "Stay in C position (thumb on Middle C).",
+          "Play C D E D C (fingers 1 2 3 2 1). Repeat three times.",
+          "Play C E G E C (fingers 1 3 5 3 1). These are skips: you jump over a key.",
+          "Play E D C, E D C, slowly. You've just played the start of Hot Cross Buns!"
+        ]
+      },
+      {
+        "id": "l1-hot-cross-buns",
+        "kind": "song",
+        "title": "Hot Cross Buns",
+        "songId": "hot-cross-buns",
+        "steps": [
+          "Right hand in C position, thumb on Middle C.",
+          "Listen to the song once in the app, then play along slowly.",
+          "It only uses three notes: E, D and C. You already know them!"
+        ],
+        "keyboardTip": "Turn on [KEY LIGHTING](#/keyboard/control/key-lighting) and try [FOLLOW](#/keyboard/control/follow) mode with one of the built-in songs: the keys light up and the keyboard waits for you to press the right one."
+      },
+      {
+        "id": "l1-mary-had-a-little-lamb",
+        "kind": "song",
+        "title": "Mary Had a Little Lamb",
+        "songId": "mary-had-a-little-lamb",
+        "steps": [
+          "Right hand in C position again.",
+          "The tune starts on E with your middle finger (3).",
+          "Play one line at a time. When a line feels easy, add the next one."
+        ],
+        "keyboardTip": "Want to feel the rhythm of a song without worrying about which key? Try [ONE-KEY](#/keyboard/control/one-key) mode: press any key and the keyboard plays the right note."
+      }
+    ]
+  },
+  {
+    "n": 2,
+    "title": "Two hands",
+    "goal": "Wake up your left hand and start playing with both hands together.",
+    "intro": "Your right hand has had a head start, so now it's your left hand's turn. Both hands working together feels strange at first for everyone. It gets easier faster than you'd think.",
+    "items": [
+      {
+        "id": "l2-lh-c-position",
+        "kind": "exercise",
+        "title": "Left hand in C position",
+        "steps": [
+          "Your left hand uses the same finger numbers: thumb is 1, little finger is 5.",
+          "Find the C below Middle C. Put your left little finger (5) on it.",
+          "Rest the other fingers on D, E, F and G, so your left thumb (1) lands on G.",
+          "Play 5 4 3 2 1 (C up to G), then 1 2 3 4 5 back down. Slow and even."
+        ]
+      },
+      {
+        "id": "l2-hands-take-turns",
+        "kind": "exercise",
+        "title": "Hands take turns",
+        "steps": [
+          "Put both hands in C position: left little finger on the low C, right thumb on Middle C.",
+          "Left hand plays C D E F G. Then right hand plays C D E F G.",
+          "Now go back down: right hand G F E D C, then left hand G F E D C.",
+          "Try it three times without stopping between the hands."
+        ]
+      },
+      {
+        "id": "l2-hands-together",
+        "kind": "exercise",
+        "title": "Your first hands-together",
+        "steps": [
+          "Both hands in C position.",
+          "Left hand holds a low C with finger 5 while the right hand plays C D E D C.",
+          "Now press the left C again on each new right-hand note. Count \"1, 2, 3, 4\" out loud.",
+          "If it feels wobbly, slow right down. Slow and steady beats fast and bumpy."
+        ],
+        "keyboardTip": "Turn on the keyboard's [METRONOME](#/keyboard/control/metronome) for a steady click, and use [TEMPO −/+](#/keyboard/control/tempo) to make it slower."
+      },
+      {
+        "id": "l2-twinkle-twinkle",
+        "kind": "song",
+        "title": "Twinkle Twinkle Little Star",
+        "songId": "twinkle-twinkle",
+        "steps": [
+          "Right hand starts on Middle C with your thumb.",
+          "The big jump in the first line is C up to G: thumb on C, finger 4 on G.",
+          "The A in \"lit-tle\" is one key past G: play it with finger 5, then come back to G with finger 4."
+        ]
+      },
+      {
+        "id": "l2-au-clair-de-la-lune",
+        "kind": "song",
+        "title": "Au Clair de la Lune",
+        "songId": "au-clair-de-la-lune",
+        "steps": [
+          "A gentle French song, right hand in C position.",
+          "The first line is C C C D E D: say the note names as you play.",
+          "Keep it soft and flowing, like a lullaby."
+        ],
+        "keyboardTip": "Turn on [KEY LIGHTING](#/keyboard/control/key-lighting) and try a built-in song in [ENSEMBLE](#/keyboard/control/ensemble) mode, where you play along with a backing part."
+      },
+      {
+        "id": "l2-ode-to-joy",
+        "kind": "song",
+        "title": "Ode to Joy",
+        "songId": "ode-to-joy",
+        "steps": [
+          "Learn the right hand first. It starts E E F G with fingers 3 3 4 5.",
+          "Then learn the left-hand part on its own.",
+          "Put them together very slowly, one line at a time. Use the Right and Left buttons on the song page to hear each part."
+        ]
+      }
+    ]
+  },
+  {
+    "n": 3,
+    "title": "Reading music and scales",
+    "goal": "Read notes on the treble and bass staff, and play C, G and F major scales.",
+    "intro": "Time to learn what those lines and dots mean! Reading music is just like reading words: a little slow at first, then it clicks. You'll also play your first scales, which are the warm-up every pianist uses.",
+    "items": [
+      {
+        "id": "l3-treble-staff",
+        "kind": "exercise",
+        "title": "Read the treble staff",
+        "steps": [
+          "The staff is the five lines. The treble clef (the curly 𝄞 sign) is for your right hand, the higher notes.",
+          "Middle C sits on its own little line just below the staff.",
+          "The notes on the lines, from the bottom: E G B D F. Remember it as \"Every Good Boy Does Fine\".",
+          "The notes in the spaces, from the bottom, spell FACE.",
+          "Open any song in the app and name the first five notes of the right hand."
+        ]
+      },
+      {
+        "id": "l3-bass-staff",
+        "kind": "exercise",
+        "title": "Read the bass staff",
+        "steps": [
+          "The bass clef (the 𝄢 sign with two dots) is for your left hand, the lower notes.",
+          "The two dots sit either side of the line for F, which is why it's also called the F clef.",
+          "The lines, from the bottom: G B D F A. Remember it as \"Good Boys Do Fine Always\".",
+          "The spaces, from the bottom: A C E G. Remember it as \"All Cows Eat Grass\".",
+          "Open Ode to Joy and name the first few left-hand notes."
+        ]
+      },
+      {
+        "id": "l3-c-major-scale",
+        "kind": "exercise",
+        "title": "C major scale (one octave)",
+        "steps": [
+          "A scale is eight notes walking up in order. C major is all white keys, C up to the next C.",
+          "Right hand fingers: 1 2 3 on C D E, then tuck your thumb under to play F with finger 1, then 2 3 4 5 on G A B C.",
+          "That \"thumb under\" move is the secret: your thumb slides underneath your hand so you never run out of fingers.",
+          "Coming down: 5 4 3 2 1 on C B A G F, then cross finger 3 over your thumb onto E, then 2 1 on D C.",
+          "Left hand going up: 5 4 3 2 1 on C D E F G, then cross finger 3 over onto A, then 2 1 on B C."
+        ],
+        "keyboardTip": "Set the [METRONOME](#/keyboard/control/metronome) going and slow it with [TEMPO −/+](#/keyboard/control/tempo). Play one note per click."
+      },
+      {
+        "id": "l3-g-major-scale",
+        "kind": "exercise",
+        "title": "G major scale",
+        "steps": [
+          "G major starts on G and has one black key: F sharp (F♯). Sharp means the black key just to the right.",
+          "Notes: G A B C D E F♯ G.",
+          "Right hand uses the same fingering as C major: 1 2 3, thumb under, 1 2 3 4 5.",
+          "Watch for F♯ near the top: it's played with finger 4."
+        ]
+      },
+      {
+        "id": "l3-f-major-scale",
+        "kind": "exercise",
+        "title": "F major scale",
+        "steps": [
+          "F major starts on F and has one black key: B flat (B♭). Flat means the black key just to the left.",
+          "Notes: F G A B♭ C D E F.",
+          "Right hand is a little different: 1 2 3 4 on F G A B♭, thumb under to C, then 1 2 3 4 on C D E F.",
+          "Go slowly the first few times. The B♭ with finger 4 is the tricky bit."
+        ]
+      },
+      {
+        "id": "l3-jingle-bells",
+        "kind": "song",
+        "title": "Jingle Bells",
+        "songId": "jingle-bells",
+        "steps": [
+          "Try reading the right-hand notes from the music before you listen.",
+          "The chorus starts with E E E: three in a row.",
+          "Add the left hand only when the right hand feels easy."
+        ],
+        "keyboardTip": "Turn on [KEY LIGHTING](#/keyboard/control/key-lighting) and practise reading with a built-in song in [FOLLOW](#/keyboard/control/follow) mode."
+      }
+    ]
+  },
+  {
+    "n": 4,
+    "title": "Chords",
+    "goal": "Play C, F, G and A minor chords, and put a melody on top of them.",
+    "intro": "Chords are a few notes played together, and they're what make music sound full and rich. Once you know four chords, you can accompany hundreds of songs. This is where it starts to feel like real piano playing!",
+    "items": [
+      {
+        "id": "l4-triads",
+        "kind": "exercise",
+        "title": "Your first chords (triads)",
+        "steps": [
+          "A triad is three notes, each one a skip apart: play one, skip one, play one, skip one, play one.",
+          "C chord: C E G. Right hand fingers 1 3 5. Press all three at once.",
+          "F chord: F A C. G chord: G B D.",
+          "A minor (Am): A C E. Minor chords sound a little sadder. Listen for it!"
+        ]
+      },
+      {
+        "id": "l4-lh-block-chords",
+        "kind": "exercise",
+        "title": "Left-hand block chords",
+        "steps": [
+          "\"Block chord\" just means pressing all the notes together, like a block.",
+          "Left hand plays C chord (C E G) with fingers 5 3 1, below Middle C.",
+          "Move to F chord, then G chord, then back to C. Count four slow beats on each.",
+          "Shortcut: for G, try B D G with fingers 5 3 1 instead. Your hand barely moves!"
+        ],
+        "keyboardTip": "Curious what chords sound like with a band? Try [FINGERED CHORD](#/keyboard/control/fingered-chord) with a rhythm, and press [CHORD OFF](#/keyboard/control/chord-off) when you're done."
+      },
+      {
+        "id": "l4-chord-progression",
+        "kind": "exercise",
+        "title": "C, Am, F, G",
+        "steps": [
+          "Play these four chords in order with your left hand: C, Am, F, G.",
+          "Hold each one for four counts.",
+          "Loop it around and around. This is one of the most popular chord patterns in pop music!"
+        ],
+        "keyboardTip": "Start a backing beat with [RHYTHM](#/keyboard/control/rhythm) and [START/STOP](#/keyboard/control/start-stop), then play your chords along with it. [ACCOM VOL −/+](#/keyboard/control/accom-vol) makes the backing quieter."
+      },
+      {
+        "id": "l4-melody-over-chords",
+        "kind": "exercise",
+        "title": "Melody over chords",
+        "steps": [
+          "Pick a tune you know, like Ode to Joy.",
+          "Right hand plays the tune. Left hand plays a C chord at the start of each bar.",
+          "When the tune sounds wrong over C, try G instead. Your ears will tell you!",
+          "Go slowly. Getting the two hands to land together is the whole goal."
+        ]
+      },
+      {
+        "id": "l4-minuet-in-g",
+        "kind": "song",
+        "title": "Minuet in G",
+        "songId": "minuet-in-g",
+        "steps": [
+          "This is a dance in 3: count \"1, 2, 3\" for each bar.",
+          "Learn the right hand first, a few bars at a time.",
+          "Then add the left hand, slowly. Use the app's tempo slider to slow it down."
+        ],
+        "keyboardTip": "Turn on the [METRONOME](#/keyboard/control/metronome) and set a slow speed with [TEMPO −/+](#/keyboard/control/tempo)."
+      },
+      {
+        "id": "l4-fur-elise",
+        "kind": "song",
+        "title": "Für Elise",
+        "songId": "fur-elise",
+        "steps": [
+          "The famous opening rocks between E and D sharp (D♯, the black key just right of D).",
+          "Practise just that rocking motion until it feels easy.",
+          "Then learn the rest of the opening one small piece at a time."
+        ],
+        "keyboardTip": "Press [SUSTAIN](#/keyboard/control/sustain) to hear the notes ring and blend. Press it again to turn it off."
+      }
+    ]
+  },
+  {
+    "n": 5,
+    "title": "Your music",
+    "goal": "Play richer rhythms, use sustain, and learn songs you choose.",
+    "intro": "Look how far you've come! This level adds a few more kinds of rhythm and the lovely ringing sound of sustain. Then it's over to you: pick the music you've always wanted to play.",
+    "items": [
+      {
+        "id": "l5-dotted-notes",
+        "kind": "exercise",
+        "title": "Dotted notes",
+        "steps": [
+          "A dot after a note makes it half as long again.",
+          "A half note is 2 beats, so a dotted half note is 3 beats. Count \"1, 2, 3\" while you hold it.",
+          "A quarter note is 1 beat, so a dotted quarter is 1 and a half beats.",
+          "Clap \"long-short\": a dotted quarter then an eighth. It sounds like a skip."
+        ]
+      },
+      {
+        "id": "l5-eighths-and-rests",
+        "kind": "exercise",
+        "title": "Eighth notes and rests",
+        "steps": [
+          "Eighth notes are half a beat each, so two fit in one beat. Count them \"1-and, 2-and\".",
+          "A rest means silence: lift your hand and count the beats without playing.",
+          "Play C D E F G as eighth notes (two per beat), then rest for two beats.",
+          "Repeat it, keeping the beat steady through the rest."
+        ],
+        "keyboardTip": "Use the [METRONOME](#/keyboard/control/metronome) and play two notes for every click."
+      },
+      {
+        "id": "l5-sustain",
+        "kind": "exercise",
+        "title": "Sustain",
+        "steps": [
+          "Sustain makes notes keep ringing after you let go of the key, like a real piano's pedal.",
+          "Play a C chord, let go, and listen to how it fades.",
+          "Now turn sustain on and play C chord, then F chord. Notice how they blur together.",
+          "Sustain is lovely for slow, dreamy music. Turn it off for quick, crisp notes."
+        ],
+        "keyboardTip": "Press [SUSTAIN](#/keyboard/control/sustain) to hear notes ring. Press it again to turn it off."
+      },
+      {
+        "id": "l5-canon-in-d",
+        "kind": "song",
+        "title": "Canon in D",
+        "songId": "canon-in-d",
+        "steps": [
+          "The left hand repeats the same pattern over and over. Learn it first.",
+          "Then add the right hand, slowly.",
+          "Try it with sustain on for that beautiful wedding sound."
+        ],
+        "keyboardTip": "Try a different sound with [TIMBRE](#/keyboard/control/timbre), like 000 Acoustic Grand Piano or 031 String Ensemble 1."
+      },
+      {
+        "id": "l5-pick-a-song",
+        "kind": "exercise",
+        "title": "Pick a song you love",
+        "link": "#/songs",
+        "steps": [
+          "Open Songs and scroll down to Modern songs.",
+          "Pick one that makes you happy. It opens a shop where you can get beginner sheet music.",
+          "Learn it the same way you learned the others: right hand, then left hand, then together, slowly.",
+          "Tick this when you can play a part of it you're proud of."
+        ],
+        "keyboardTip": "Record yourself with [REC](#/keyboard/control/rec) and listen back with [PLAY](#/keyboard/control/play). You'll be surprised how good you sound!"
+      }
+    ]
+  }
+]

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { computeStreak, localDate, minutesOn, setProgress, useProgress } from '../store'
+import { nextItem } from '../levels'
 import './Today.css'
 
 function greeting(hour = new Date().getHours()) {
@@ -14,6 +15,7 @@ export default function Today() {
   const streak = computeStreak(p.log, today)
   const mins = Math.round(minutesOn(p, today))
   const name = p.settings.name?.trim()
+  const next = nextItem(p)
 
   // undefined = never asked (first launch); '' = she chose Skip, so don't ask again (she can set it in Me).
   if (p.settings.name === undefined) return <AskName />
@@ -37,6 +39,18 @@ export default function Today() {
       </div>
 
       <a className="btn today-start" href="#/practice">▶️ Start today's practice</a>
+
+      {next ? (
+        <a className="card today-next" href={`#/learn/${next.level.n}`}>
+          <span className="today-next-label">Next up · Level {next.level.n}: {next.level.title}</span>
+          <strong className="today-next-title">{next.item.title} →</strong>
+        </a>
+      ) : (
+        <div className="card today-next">
+          <span className="today-next-label">Next up</span>
+          <strong className="today-next-title">🎉 You've finished every level. Amazing! Pick any song you love and enjoy it.</strong>
+        </div>
+      )}
     </div>
   )
 }

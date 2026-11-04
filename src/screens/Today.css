@@ -12,3 +12,6 @@
   color: var(--ink);
   font: inherit;
 }
+.today-next { display: flex; flex-direction: column; gap: 4px; max-width: 640px; min-height: var(--tap); color: var(--ink); text-decoration: none; border-color: var(--calm); }
+.today-next-label { color: var(--ink-soft); font-weight: 600; }
+.today-next-title { font-size: 1.3rem; line-height: 1.25; }
