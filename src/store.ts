@@ -60,7 +60,8 @@ export function localDate(d = new Date()): string {
 
 export function addMinutes(minutes: number, date = localDate()) {
   if (!Number.isFinite(minutes) || minutes <= 0) return
-  setProgress((p) => ({ ...p, log: { ...p.log, [date]: (p.log[date] ?? 0) + minutes } }))
+  // Round to 0.1 so repeated small adds do not drift (0.1 + 0.2 = 0.30000000000000004 in floating point).
+  setProgress((p) => ({ ...p, log: { ...p.log, [date]: Math.round(((p.log[date] ?? 0) + minutes) * 10) / 10 } }))
 }
 
 export const minutesOn = (p: Progress, date: string) => p.log[date] ?? 0
