@@ -1,0 +1,246 @@
+{
+  "id": "jikada-61",
+  "brand": "JIKADA",
+  "listingName": "JIKADA-61",
+  "model": "JK-825",
+  "sources": [
+    { "id": "S1", "name": "your owner's manual, page 1", "primary": true },
+    { "id": "S2", "name": "the printing on your keyboard's top panel", "primary": true },
+    { "id": "S3", "name": "the seller's Amazon description", "primary": false },
+    { "id": "S4", "name": "an online summary of the manual", "primary": false }
+  ],
+  "features": { "touchSensitive": null, "usbMidi": false, "lightedKeys": true },
+  "counts": { "keys": 61, "tones": 255, "rhythms": 255, "demos": 50, "source": "S2" },
+  "controls": [
+    { "id": "loudspeaker", "num": 1, "label": "Loudspeaker", "group": "keys", "does": "The two built-in speakers, one at each end of the panel.", "verified": true, "source": "S1", "panel": { "row": 1, "col": 1 } },
+    { "id": "power", "num": 2, "label": "POWER", "group": "power", "does": "Turns the keyboard on (ON) or off (OFF).", "verified": true, "source": "S2", "panel": { "row": 1, "col": 1 } },
+    { "id": "mp3-prev-next", "num": 3, "label": "Previous/Next", "group": "mp3", "does": "Part of the MP3 player for a USB stick: skips to the previous or next track.", "verified": false, "source": "S4", "panel": { "row": 1, "col": 1 } },
+    { "id": "mp3-play-pause", "num": 4, "label": "Play/Pause", "group": "mp3", "does": "Part of the MP3 player for a USB stick: plays or pauses the track.", "verified": false, "source": "S4", "panel": { "row": 1, "col": 2 } },
+    { "id": "mp3-stop", "num": 5, "label": "Stop", "group": "mp3", "does": "Part of the MP3 player for a USB stick: stops the track.", "verified": false, "source": "S4", "panel": { "row": 1, "col": 3 } },
+    { "id": "mp3-volume", "num": 6, "label": "MP3 Volume Control", "group": "mp3", "does": "Makes the MP3 music louder or quieter.", "verified": false, "source": "S4", "panel": { "row": 2, "col": 1 } },
+    { "id": "mp3-order", "num": 7, "label": "Sequence/Random/Single", "group": "mp3", "does": "Chooses the order MP3 tracks play in: in sequence, random, or one track.", "verified": false, "source": "S4", "panel": { "row": 2, "col": 2 } },
+    { "id": "mp3-effect", "num": 8, "label": "EFFECT", "group": "mp3", "does": "", "verified": false, "source": "S1", "panel": { "row": 2, "col": 3 } },
+    { "id": "sync", "num": 9, "label": "SYNC", "group": "sound", "does": "", "verified": false, "source": "S1", "panel": { "row": 1, "col": 1 } },
+    { "id": "fill-in", "num": 10, "label": "FILL-IN", "group": "sound", "does": "", "verified": false, "source": "S1", "panel": { "row": 2, "col": 1 } },
+    { "id": "timbre", "num": 11, "label": "TIMBRE", "group": "sound", "does": "Chooses the instrument sound (timbre). The panel lists sounds 000 to 131; 132 to 254 are in the manual.", "verified": true, "source": "S2", "panel": { "row": 1, "col": 2 } },
+    { "id": "rhythm", "num": 12, "label": "RHYTHM", "group": "sound", "does": "Chooses the backing rhythm style. The panel lists rhythms 000 to 155; 156 to 254 are in the manual.", "verified": true, "source": "S2", "panel": { "row": 2, "col": 2 } },
+    { "id": "key-lighting", "num": 13, "label": "KEY LIGHTING", "group": "sound", "does": "Turns the lighted keys on or off.", "verified": false, "source": "S3", "panel": { "row": 1, "col": 3 } },
+    { "id": "demo-song", "num": 14, "label": "DEMO SONG", "group": "sound", "does": "Plays the built-in demo songs (there are 50).", "verified": false, "source": "S3", "panel": { "row": 2, "col": 3 } },
+    { "id": "lcd", "num": 15, "label": "LCD display", "group": "display", "does": "The screen in the middle of the panel.", "verified": true, "source": "S1", "panel": { "row": 1, "col": 1 } },
+    { "id": "keyboard-percussion", "num": 16, "label": "KEYBOARD PERCUSSION", "group": "effects", "does": "Turns the keys into drum and percussion sounds (61 of them).", "verified": false, "source": "S3", "panel": { "row": 1, "col": 1 } },
+    { "id": "rec", "num": 17, "label": "REC", "group": "effects", "does": "Records what you play.", "verified": false, "source": "S3", "panel": { "row": 1, "col": 2 } },
+    { "id": "prog", "num": 18, "label": "PROG", "group": "effects", "does": "", "verified": false, "source": "S1", "panel": { "row": 1, "col": 3 } },
+    { "id": "play", "num": 19, "label": "PLAY", "group": "effects", "does": "Plays back your recording.", "verified": false, "source": "S3", "panel": { "row": 1, "col": 4 } },
+    { "id": "split", "num": 20, "label": "SPLIT", "group": "effects", "does": "Gives the left and right sides of the keyboard two different sounds.", "verified": false, "source": "S3", "panel": { "row": 2, "col": 1 } },
+    { "id": "sustain", "num": 21, "label": "SUSTAIN", "group": "effects", "does": "Makes notes ring on longer. Press again to turn it off.", "verified": false, "source": "S3", "panel": { "row": 2, "col": 2 } },
+    { "id": "vibrato", "num": 22, "label": "VIBRATO", "group": "effects", "does": "Adds a gentle wobble (vibrato) to the sound. Press again to turn it off.", "verified": false, "source": "S3", "panel": { "row": 2, "col": 3 } },
+    { "id": "one-key", "num": 23, "label": "ONE-KEY", "group": "lesson", "does": "Teaching mode 1: press any key and the keyboard plays the correct next note of the song.", "verified": false, "source": "S4", "panel": { "row": 1, "col": 1 } },
+    { "id": "follow", "num": 24, "label": "FOLLOW", "group": "lesson", "does": "Teaching mode 2: the keyboard waits for you to play the correct (lit) note.", "verified": false, "source": "S4", "panel": { "row": 2, "col": 1 } },
+    { "id": "ensemble", "num": 25, "label": "ENSEMBLE", "group": "lesson", "does": "Teaching mode 3: play the song along with the accompaniment.", "verified": false, "source": "S4", "panel": { "row": 3, "col": 1 } },
+    { "id": "memory", "num": 26, "label": "MEMORY · M1 M2 M3", "group": "numbers", "does": "Saves your sound, rhythm and tempo settings so you can get them back later.", "verified": false, "source": "S3", "panel": { "row": 1, "col": 1 } },
+    { "id": "numbers", "num": 27, "label": "0–9 · + · −", "group": "numbers", "does": "The number buttons, for picking a sound, rhythm or song by its number.", "verified": false, "source": "S4", "panel": { "row": 2, "col": 1 } },
+    { "id": "single-chord", "num": 28, "label": "SINGLE CHORD", "group": "chords", "does": "One-finger automatic chords: press one key on the left and get a full chord.", "verified": false, "source": "S3", "panel": { "row": 1, "col": 1 } },
+    { "id": "fingered-chord", "num": 29, "label": "FINGERED CHORD", "group": "chords", "does": "Automatic accompaniment from the full chord you play on the left.", "verified": false, "source": "S3", "panel": { "row": 1, "col": 2 } },
+    { "id": "chord-timbre", "num": 30, "label": "CHORD TIMBRE", "group": "chords", "does": "", "verified": false, "source": "S1", "panel": { "row": 2, "col": 1 } },
+    { "id": "chord-off", "num": 31, "label": "CHORD OFF", "group": "chords", "does": "Turns the automatic chords off.", "verified": true, "source": "S2", "panel": { "row": 2, "col": 2 } },
+    { "id": "metronome", "num": 32, "label": "METRONOME", "group": "sound", "does": "Turns on the keyboard's built-in metronome (a steady click to keep time).", "verified": false, "source": "S3", "panel": { "row": 3, "col": 1 } },
+    { "id": "start-stop", "num": 33, "label": "START/STOP", "group": "sound", "does": "Starts or stops the rhythm.", "verified": false, "source": "S4", "panel": { "row": 3, "col": 2 } },
+    { "id": "master-vol", "num": 34, "label": "MASTER VOL −/+", "group": "volume-tempo", "does": "Turns the whole keyboard quieter (−) or louder (+).", "verified": true, "source": "S2", "panel": { "row": 1, "col": 1 } },
+    { "id": "accom-vol", "num": 35, "label": "ACCOM VOL −/+", "group": "volume-tempo", "does": "Turns the accompaniment (the backing rhythm and chords) quieter (−) or louder (+).", "verified": true, "source": "S2", "panel": { "row": 1, "col": 2 } },
+    { "id": "tempo", "num": 36, "label": "TEMPO −/+", "group": "volume-tempo", "does": "Makes the rhythm slower (−) or faster (+).", "verified": true, "source": "S2", "panel": { "row": 1, "col": 3 } },
+    { "id": "transpose", "num": 37, "label": "TRANSPOSE −/+", "group": "volume-tempo", "does": "Shifts every key lower (−) or higher (+) in pitch.", "verified": true, "source": "S2", "panel": { "row": 1, "col": 4 } },
+    { "id": "chord-zone", "num": 38, "label": "+ AUTO BASS CHORD", "group": "keys", "does": "The keys at the left end, used for the automatic chords. Exactly which keys: details coming soon.", "verified": false, "source": "S1", "panel": { "row": 1, "col": 2 } },
+    { "id": "udisk", "num": 39, "label": "UDISK", "group": "ports", "does": "Back of the keyboard: plug in a USB stick with MP3 music (the panel calls it the UDISK Music Player). This is not a computer/MIDI port.", "verified": true, "source": "S2", "panel": { "row": 1, "col": 1 } },
+    { "id": "audio-input", "num": 40, "label": "AUDIO INPUT", "group": "ports", "does": "Back of the keyboard: plug in a phone or tablet to play its music through the keyboard's speakers.", "verified": false, "source": "S4", "panel": { "row": 1, "col": 2 } },
+    { "id": "mic", "num": 41, "label": "MIC", "group": "ports", "does": "Back of the keyboard: plug in the microphone.", "verified": true, "source": "S1", "panel": { "row": 1, "col": 3 } },
+    { "id": "phones-output", "num": 42, "label": "PHONES/OUTPUT", "group": "ports", "does": "Back of the keyboard: plug in headphones.", "verified": true, "source": "S1", "panel": { "row": 1, "col": 4 } },
+    { "id": "dc-12v", "num": 43, "label": "DC 12V", "group": "ports", "does": "Back of the keyboard: the power adapter plugs in here (12 volts).", "verified": true, "source": "S1", "panel": { "row": 1, "col": 5 } }
+  ],
+  "tones": [
+    { "num": 0, "name": "Acoustic Grand Piano" }, { "num": 1, "name": "Rhodes Piano" }, { "num": 2, "name": "Chorused Piano" },
+    { "num": 3, "name": "Celesta 1" }, { "num": 4, "name": "Music Box 1" }, { "num": 5, "name": "Vibraphone" },
+    { "num": 6, "name": "Marimba 1" }, { "num": 7, "name": "Xylophone 1" }, { "num": 8, "name": "Percussive Organ" },
+    { "num": 9, "name": "Rock Organ" }, { "num": 10, "name": "Church Organ" }, { "num": 11, "name": "Reed Organ 1" },
+    { "num": 12, "name": "Accordion" }, { "num": 13, "name": "Harmonica" }, { "num": 14, "name": "Acoustic Guitar (Nylon)" },
+    { "num": 15, "name": "Acoustic Guitar (Steel)" }, { "num": 16, "name": "Electric Guitar (Jazz)" }, { "num": 17, "name": "Electric Guitar (Clean) 1" },
+    { "num": 18, "name": "Distortion Guitar" }, { "num": 19, "name": "Acoustic Bass" }, { "num": 20, "name": "Electric Bass (Finger)" },
+    { "num": 21, "name": "Electric Bass (Pick)" }, { "num": 22, "name": "Fretless Bass" }, { "num": 23, "name": "Slap Bass 1" },
+    { "num": 24, "name": "Slap Bass 2" }, { "num": 25, "name": "Synth Bass 1" }, { "num": 26, "name": "Synth Bass 2" },
+    { "num": 27, "name": "Violin" }, { "num": 28, "name": "Viola" }, { "num": 29, "name": "Cello" },
+    { "num": 30, "name": "Orchestral Harp" }, { "num": 31, "name": "String Ensemble 1" }, { "num": 32, "name": "Trumpet" },
+    { "num": 33, "name": "Trombone" }, { "num": 34, "name": "Tuba" }, { "num": 35, "name": "French Horn" },
+    { "num": 36, "name": "Brass Section" }, { "num": 37, "name": "Synth Brass 1" }, { "num": 38, "name": "Soprano Sax" },
+    { "num": 39, "name": "Alto Sax 1" }, { "num": 40, "name": "Tenor Sax" }, { "num": 41, "name": "Baritone Sax" },
+    { "num": 42, "name": "Oboe" }, { "num": 43, "name": "Bassoon" }, { "num": 44, "name": "Clarinet" },
+    { "num": 45, "name": "Piccolo" }, { "num": 46, "name": "Flute" }, { "num": 47, "name": "Pan Flute" },
+    { "num": 48, "name": "Lead (Square)" }, { "num": 49, "name": "Banjo" }, { "num": 50, "name": "E-Tone Piano" },
+    { "num": 51, "name": "Electric Grand Piano" }, { "num": 52, "name": "Honky-tonk Piano" }, { "num": 53, "name": "Harpsichord 1" },
+    { "num": 54, "name": "Clavi 1" }, { "num": 55, "name": "Glockenspiel 1" }, { "num": 56, "name": "Tubular Bells 1" },
+    { "num": 57, "name": "Dulcimer 1" }, { "num": 58, "name": "Drawbar Organ 1" }, { "num": 59, "name": "Tango Accordion 1" },
+    { "num": 60, "name": "Electric Guitar (Muted) 1" }, { "num": 61, "name": "Overdriven Guitar 1" }, { "num": 62, "name": "Contrabass 1" },
+    { "num": 63, "name": "Tremolo Strings" }, { "num": 64, "name": "Pizzicato Strings 1" }, { "num": 65, "name": "Timpani" },
+    { "num": 66, "name": "String Ensemble 2" }, { "num": 67, "name": "Synth Strings 1" }, { "num": 68, "name": "Synth Strings 2" },
+    { "num": 69, "name": "Choir Aahs" }, { "num": 70, "name": "Voice Oohs" }, { "num": 71, "name": "Synth Voice" },
+    { "num": 72, "name": "Orchestra Hit" }, { "num": 73, "name": "Muted Trumpet 1" }, { "num": 74, "name": "Synth Brass 2" },
+    { "num": 75, "name": "English Horn 1" }, { "num": 76, "name": "Recorder" }, { "num": 77, "name": "Blown Bottle 1" },
+    { "num": 78, "name": "Shakuhach" }, { "num": 79, "name": "Whistle" }, { "num": 80, "name": "Ocarina" },
+    { "num": 81, "name": "Lead (Sawtooth) 1" }, { "num": 82, "name": "Lead (Calliope) 1" }, { "num": 83, "name": "Lead (Bass+Lead) 1" },
+    { "num": 84, "name": "Pad (Warm) 1" }, { "num": 85, "name": "Sitar" }, { "num": 86, "name": "Shamisen 1" },
+    { "num": 87, "name": "Koto 1" }, { "num": 88, "name": "Kalimba 1" }, { "num": 89, "name": "Bag Pipe 1" },
+    { "num": 90, "name": "Fiddle 1" }, { "num": 91, "name": "Shanai 1" }, { "num": 92, "name": "Tinkle Bell" },
+    { "num": 93, "name": "Agogo 1" }, { "num": 94, "name": "Steel Drums" }, { "num": 95, "name": "Woodblock 1" },
+    { "num": 96, "name": "Taiko Drum" }, { "num": 97, "name": "Melodic Tom 1" }, { "num": 98, "name": "Synth Drum" },
+    { "num": 99, "name": "Reverse Cymbal" }, { "num": 100, "name": "Jungle Bass 1" }, { "num": 101, "name": "Pi Pa 1" },
+    { "num": 102, "name": "Feedback Gt. 1" }, { "num": 103, "name": "Uillean Harp 1" }, { "num": 104, "name": "Jazz Bass 1" }, { "num": 105, "name": "Flugel Horn 1" },
+    { "num": 106, "name": "Muted Horn 1" }, { "num": 107, "name": "Wood Barafon 1" }, { "num": 108, "name": "Electric Piano 1" },
+    { "num": 109, "name": "Multi Reed 1" }, { "num": 110, "name": "Guitar Pinch 1" }, { "num": 111, "name": "Multi Wind 1" },
+    { "num": 112, "name": "Clavi 2" }, { "num": 113, "name": "Celesta 2" }, { "num": 114, "name": "Harpsichord 2" },
+    { "num": 116, "name": "Pi Pa 2" }, { "num": 117, "name": "Upright Piano 1" }, { "num": 118, "name": "Electric Piano 2" },
+    { "num": 119, "name": "Hard Vibe 1" }, { "num": 120, "name": "Wood Barafon 2" }, { "num": 121, "name": "Music Box 2" },
+    { "num": 122, "name": "Marimba 2" }, { "num": 123, "name": "Santur" }, { "num": 124, "name": "Reed Organ 2" },
+    { "num": 125, "name": "Puff Harmonica 1" }, { "num": 126, "name": "Ukulele 1" }, { "num": 127, "name": "12-str. Gt 1" },
+    { "num": 128, "name": "Guitar Pinch 2" }, { "num": 129, "name": "Slow Violin 1" }, { "num": 130, "name": "Bright String 1" },
+    { "num": 131, "name": "Jungle Bass 2" }
+  ],
+  "tonesSource": "S2",
+  "rhythms": [
+    { "num": 0, "name": "Hard Rock" }, { "num": 1, "name": "Club Pop" }, { "num": 2, "name": "Fusion" },
+    { "num": 3, "name": "Rap Pop" }, { "num": 4, "name": "British Pop 1" }, { "num": 5, "name": "Twist" },
+    { "num": 6, "name": "8 Beat Pop 1" }, { "num": 7, "name": "Fusion Shuffle" }, { "num": 8, "name": "Funk" },
+    { "num": 9, "name": "Funk Shuffle" }, { "num": 10, "name": "Rock'n Roll 1" }, { "num": 11, "name": "Rock Pop" },
+    { "num": 12, "name": "Rock Shuffle" }, { "num": 13, "name": "Rock Cha Cha" }, { "num": 14, "name": "Straight Rock" },
+    { "num": 15, "name": "Folk Rock" }, { "num": 16, "name": "Pasodoble" }, { "num": 17, "name": "Cha Cha" },
+    { "num": 18, "name": "Fox Trot" }, { "num": 19, "name": "Rumba 1" }, { "num": 20, "name": "Samba 1" },
+    { "num": 21, "name": "Samba 2" }, { "num": 22, "name": "Schlager Rock" }, { "num": 23, "name": "Tango 1" },
+    { "num": 24, "name": "Tango 2" }, { "num": 25, "name": "Disco Latin 1" }, { "num": 26, "name": "Calypso" },
+    { "num": 27, "name": "Latin Rock" }, { "num": 28, "name": "Bolero" }, { "num": 29, "name": "Analog Ballad 1" },
+    { "num": 30, "name": "E_Ballad" }, { "num": 31, "name": "Country Ballad" }, { "num": 32, "name": "Electro Pop" },
+    { "num": 33, "name": "Pop New Age 1" }, { "num": 34, "name": "8 Beat Modern 1" }, { "num": 35, "name": "R&B Ballad 1" },
+    { "num": 36, "name": "Disco Fox 1" }, { "num": 37, "name": "Disco Funk 1" }, { "num": 38, "name": "Disco Party 1" },
+    { "num": 39, "name": "Disco Samba 1" }, { "num": 40, "name": "Disco Soul" }, { "num": 41, "name": "Disco Trot" },
+    { "num": 42, "name": "Rave 1" }, { "num": 43, "name": "Funky Disco 1" }, { "num": 44, "name": "Techno 1" },
+    { "num": 45, "name": "Techno 2" }, { "num": 46, "name": "Saturday Night 1" }, { "num": 47, "name": "Club Latin 1" },
+    { "num": 48, "name": "Disco Hands 1" }, { "num": 49, "name": "Country" }, { "num": 50, "name": "China 1" },
+    { "num": 51, "name": "China 2" }, { "num": 52, "name": "China 3" }, { "num": 53, "name": "China 4" },
+    { "num": 54, "name": "China 5" }, { "num": 55, "name": "8 Bt Up Tempo" }, { "num": 56, "name": "16 Beat Pop" },
+    { "num": 57, "name": "16 Bt Shuffle 1" }, { "num": 58, "name": "16 Bt Shuffle 2" }, { "num": 59, "name": "16 Bt Ballad 1" },
+    { "num": 60, "name": "16 Bt Ballad 2" }, { "num": 61, "name": "Soul" }, { "num": 62, "name": "Pop Rock 1" },
+    { "num": 63, "name": "Pop Rock 2" }, { "num": 64, "name": "8 Bt Rock Balld" }, { "num": 65, "name": "16 Bt Rock Balld" },
+    { "num": 66, "name": "6/8 Hvy Rock" }, { "num": 67, "name": "16 Beat Rock" }, { "num": 68, "name": "Bossa Nova 1" },
+    { "num": 69, "name": "Bossa Nova 2" }, { "num": 70, "name": "Salsa" }, { "num": 71, "name": "Mambo" },
+    { "num": 72, "name": "Beguine" }, { "num": 73, "name": "Bolero Lento" }, { "num": 74, "name": "Espagnole" },
+    { "num": 75, "name": "Reggae 12" }, { "num": 76, "name": "Pop Reggae 1" }, { "num": 77, "name": "Slow Rock 1" },
+    { "num": 78, "name": "Slow Rock 2" }, { "num": 79, "name": "R&B" }, { "num": 80, "name": "Dance Pop 1" },
+    { "num": 81, "name": "Dance Pop 2" }, { "num": 82, "name": "Euro Beat" }, { "num": 83, "name": "Euro House" },
+    { "num": 84, "name": "Hip Hop" }, { "num": 85, "name": "Swing" }, { "num": 86, "name": "Big Band Swing" },
+    { "num": 87, "name": "Jazz Quartet" }, { "num": 88, "name": "Dixieland" }, { "num": 89, "name": "Bluegrass 1" },
+    { "num": 90, "name": "Bluegrass 2" }, { "num": 91, "name": "8 Bt Country" }, { "num": 92, "name": "Country Rock" },
+    { "num": 93, "name": "Cntry Ballad" }, { "num": 94, "name": "March 1" }, { "num": 95, "name": "March 2" },
+    { "num": 96, "name": "Polka" }, { "num": 97, "name": "Pop Waltz" }, { "num": 98, "name": "Jive" },
+    { "num": 99, "name": "Vienna Waltz" }, { "num": 100, "name": "Hoedown" }, { "num": 101, "name": "Finger Pickin" },
+    { "num": 102, "name": "Jazz Latin 1" }, { "num": 103, "name": "Unplugged" }, { "num": 104, "name": "Boogie" },
+    { "num": 105, "name": "Cumbia 2" }, { "num": 106, "name": "Classical Slow Rock" }, { "num": 107, "name": "European Disco 1" },
+    { "num": 108, "name": "Big Band Middle 1" },
+    { "num": 111, "name": "Cat Groove 1" }, { "num": 112, "name": "Jazz Tango 1" }, { "num": 113, "name": "Fast Gospel" },
+    { "num": 114, "name": "Big Band Fast 1" }, { "num": 115, "name": "Tricks Mambo" }, { "num": 116, "name": "Funky Disco 2" },
+    { "num": 117, "name": "Latin Salsa" }, { "num": 118, "name": "Pop New Age 2" }, { "num": 119, "name": "Jazz Swing 1" },
+    { "num": 120, "name": "Trip Hop" }, { "num": 121, "name": "Rave 2" }, { "num": 122, "name": "Acoustic Ballad 1" },
+    { "num": 123, "name": "India's Indigenous" }, { "num": 124, "name": "Indonesian Pop" }, { "num": 125, "name": "Pop Ballad" },
+    { "num": 126, "name": "South Africa Country" }, { "num": 127, "name": "South Africa Polka" }, { "num": 128, "name": "Tarantella 1" },
+    { "num": 129, "name": "Bright Pop" }, { "num": 130, "name": "Pub Piano 1" }, { "num": 131, "name": "West Shuffle" },
+    { "num": 132, "name": "Big Band Fast 2" }, { "num": 134, "name": "Disco Funk 2" }, { "num": 135, "name": "Pop Mambo" },
+    { "num": 136, "name": "Europe Swing 1" }, { "num": 137, "name": "Tricks Latin" }, { "num": 138, "name": "Disco Samba 2" },
+    { "num": 139, "name": "Latin Waltz" }, { "num": 140, "name": "Dance Pop 3" }, { "num": 141, "name": "Jazz Rock 1" },
+    { "num": 142, "name": "Detroit" }, { "num": 144, "name": "European Rock 1" }, { "num": 145, "name": "Ground Beat" },
+    { "num": 146, "name": "8 Beat Modern 2" }, { "num": 147, "name": "Jazz Disco 1" }, { "num": 148, "name": "Dixie Jazz 1" },
+    { "num": 149, "name": "Disco Chocolate" }, { "num": 150, "name": "Disco Latin 2" }, { "num": 151, "name": "Synth Boogie" },
+    { "num": 152, "name": "Saturday Night 2" }, { "num": 153, "name": "Club Dance 1" }, { "num": 154, "name": "Tricks Bossa Nova" },
+    { "num": 155, "name": "Tarantella 2" }
+  ],
+  "rhythmsSource": "S2",
+  "demos": [],
+  "teachingModes": [
+    { "id": "one-key", "name": "One Key", "control": 23, "does": "Press any key and the keyboard plays the correct next note of the song.", "howToEnter": [], "verified": false, "source": "S4" },
+    { "id": "follow", "name": "Follow", "control": 24, "does": "The keyboard waits for you to play the correct (lit) note before moving on.", "howToEnter": [], "verified": false, "source": "S4" },
+    { "id": "ensemble", "name": "Ensemble", "control": 25, "does": "You play the song along with the accompaniment.", "howToEnter": [], "verified": false, "source": "S4" }
+  ],
+  "howTos": [
+    {
+      "id": "change-sound", "title": "Change the sound", "controls": [11, 27], "steps": [], "comingSoon": true,
+      "notes": [
+        { "text": "Sounds 000 to 131 are printed on the left of the panel (000 is Acoustic Grand Piano). 132 to 254 are listed in the manual.", "verified": true, "source": "S2" },
+        { "text": "Press TIMBRE, then type the sound's number on the number buttons.", "verified": false, "source": "S4" }
+      ]
+    },
+    {
+      "id": "teaching-modes", "title": "Use the teaching modes (One Key, Follow, Ensemble)", "controls": [23, 24, 25, 13], "steps": [], "comingSoon": true,
+      "notes": [
+        { "text": "Your keyboard has three teaching buttons: ONE-KEY, FOLLOW and ENSEMBLE (the panel calls this the KEY LIGHTING 3-STEP LESSON).", "verified": true, "source": "S2" },
+        { "text": "The keys light up to show which notes to play during a lesson.", "verified": false, "source": "S3" }
+      ]
+    },
+    {
+      "id": "record", "title": "Record yourself", "controls": [17, 19, 18], "steps": [], "comingSoon": true,
+      "notes": [
+        { "text": "The buttons are REC (record) and PLAY (play it back).", "verified": true, "source": "S2" },
+        { "text": "The keyboard can record what you play and play it back.", "verified": false, "source": "S3" }
+      ]
+    },
+    {
+      "id": "mic-headphones", "title": "Microphone and headphones", "controls": [41, 42], "steps": [], "comingSoon": true,
+      "notes": [
+        { "text": "Both plug into the back of the keyboard: the microphone into MIC, headphones into PHONES/OUTPUT.", "verified": true, "source": "S1" },
+        { "text": "When headphones are plugged in, the speakers go quiet.", "verified": false, "source": "S4" }
+      ]
+    },
+    {
+      "id": "metronome", "title": "Use the metronome", "controls": [32, 36], "steps": [], "comingSoon": true,
+      "notes": [
+        { "text": "The keyboard has a METRONOME button, and TEMPO −/+ changes the speed.", "verified": true, "source": "S2" }
+      ]
+    },
+    {
+      "id": "transpose", "title": "Transpose (shift the pitch)", "controls": [37], "steps": [], "comingSoon": true,
+      "notes": [
+        { "text": "TRANSPOSE −/+ shifts every key lower or higher.", "verified": true, "source": "S2" },
+        { "text": "The normal setting shows as 00 on the screen.", "verified": false, "source": "S4" }
+      ]
+    }
+  ],
+  "troubleshooting": [
+    {
+      "id": "no-sound", "title": "No sound",
+      "steps": [
+        { "text": "Check the power adapter is plugged into DC 12V on the back and the keyboard is switched ON.", "verified": true, "source": "S1" },
+        { "text": "Turn MASTER VOL up with the + button.", "verified": true, "source": "S2" },
+        { "text": "Unplug any headphones from PHONES/OUTPUT: the speakers go quiet while headphones are plugged in.", "verified": false, "source": "S4" }
+      ]
+    },
+    {
+      "id": "keys-lighting", "title": "Keys aren't lighting (or lighting wrong)",
+      "steps": [
+        { "text": "Press KEY LIGHTING to turn the lights on.", "verified": false, "source": "S4" },
+        { "text": "The lights show the notes during a lesson, so start a teaching mode (ONE-KEY, FOLLOW or ENSEMBLE).", "verified": false, "source": "S4" }
+      ]
+    },
+    {
+      "id": "wrong-pitch", "title": "Everything sounds too high or too low",
+      "steps": [
+        { "text": "Transpose may be on. Use TRANSPOSE −/+ to set it back to 00.", "verified": false, "source": "S4" }
+      ]
+    },
+    {
+      "id": "notes-ring", "title": "Notes won't stop ringing",
+      "steps": [
+        { "text": "SUSTAIN is probably on. Press SUSTAIN again to turn it off.", "verified": false, "source": "S4" }
+      ]
+    },
+    {
+      "id": "reset", "title": "It's frozen / how to reset",
+      "steps": [
+        { "text": "Switch off, unplug the adapter for 60 seconds, then plug in and switch on again.", "verified": false, "source": "S4" },
+        { "text": "Factory reset", "verified": false, "comingSoon": true }
+      ]
+    }
+  ]
+}
