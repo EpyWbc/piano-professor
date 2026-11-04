@@ -69,6 +69,8 @@ export function createMetronome(onBeat?: (beatIndex: number, time: number) => vo
 
   function schedule() {
     const c = getAudioContext()
+    // Backgrounded tabs throttle timers to ~1s; skip missed beats instead of firing a burst of catch-up clicks.
+    if (nextTime < c.currentTime) nextTime = c.currentTime + 0.05
     while (nextTime < c.currentTime + LOOKAHEAD_S) {
       const b = beat
       const t = nextTime
