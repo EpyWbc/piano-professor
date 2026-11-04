@@ -1,0 +1,14 @@
+{
+  "id": "au-clair-de-la-lune",
+  "title": "Au Clair de la Lune",
+  "composer": "Traditional (French)",
+  "level": 2,
+  "genres": [
+    "folk"
+  ],
+  "bpm": 90,
+  "hands": "right",
+  "publicDomain": true,
+  "abc": "X:1\nM:4/4\nL:1/4\nK:C\n!1!C C C !2!D | !3!E2 D2 | C E D D | C4 |\nC C C D | E2 D2 | C E D D | C4 |]",
+  "tip": "Only C, D and E. Hold the half notes for two full beats."
+}

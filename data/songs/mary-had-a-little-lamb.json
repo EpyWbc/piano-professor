@@ -1,0 +1,15 @@
+{
+  "id": "mary-had-a-little-lamb",
+  "title": "Mary Had a Little Lamb",
+  "composer": "Traditional (American)",
+  "level": 1,
+  "genres": [
+    "folk",
+    "kids"
+  ],
+  "bpm": 100,
+  "hands": "right",
+  "publicDomain": true,
+  "abc": "X:1\nM:4/4\nL:1/4\nK:C\n!3!E !2!D !1!C D | E E E2 | D D D2 | E !5!G G2 |\n!3!E D C D | E E E E | D D E D | !1!C4 |]",
+  "tip": "Thumb on middle C, one finger per key. Finger 5 reaches up for G."
+}

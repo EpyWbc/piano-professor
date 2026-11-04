@@ -1,0 +1,14 @@
+{
+  "id": "ode-to-joy",
+  "title": "Ode to Joy",
+  "composer": "Ludwig van Beethoven",
+  "level": 2,
+  "genres": [
+    "classical"
+  ],
+  "bpm": 90,
+  "hands": "both",
+  "publicDomain": true,
+  "abc": "X:1\nM:4/4\nL:1/4\n%%score {RH | LH}\nV:RH clef=treble\nV:LH clef=bass\nK:C\n[V:RH]\n!3!E E !4!F !5!G | G F E !2!D | !1!C C D E | E3/2 D/ D2 |\nE E F G | G F E D | C C D E | D3/2 C/ C2 |]\n[V:LH]\n!5!C,4 | !1!G,4 | C,4 | G,4 |\nC,4 | G,4 | C,4 | G,2 C,2 |]",
+  "tip": "Learn the right hand first. The left hand holds one long note per bar: C with finger 5, G with your thumb."
+}

@@ -1,0 +1,21 @@
+.song-chip { min-height: 56px; padding: 0 20px; text-transform: capitalize; }
+.song-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.song-card { display: flex; flex-direction: column; gap: 6px; color: var(--ink); text-decoration: none; min-height: var(--tap); }
+.song-card-title { font-size: 1.25rem; line-height: 1.25; }
+.song-meta { color: var(--ink-soft); }
+.song-level { font-weight: 700; color: var(--accent); }
+.song-badge { font-weight: 700; color: var(--calm); }
+
+/* Song page: controls on top so Play is always in reach; the score gets the rest of the width. */
+.song-page { display: flex; flex-direction: column; gap: 16px; }
+.song-head { display: flex; align-items: center; gap: 16px; }
+.song-head .btn { padding: 0; width: var(--tap); font-size: 1.6rem; }
+.song-title { margin: 0; font-size: 1.8rem; }
+.song-controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; }
+.song-play { min-width: 160px; font-size: 1.3rem; }
+.song-tempo { display: flex; flex-direction: column; flex: 1 1 220px; max-width: 360px; }
+.song-tempo input { width: 100%; height: 44px; accent-color: var(--accent); }
+.song-hand { padding: 0 20px; }
+.song-done.is-done { background: var(--calm); color: var(--accent-ink); }
+.song-error { margin: 0; color: var(--accent); font-weight: 700; }
+.song-tip { margin: 0; color: var(--ink-soft); }

@@ -1,0 +1,14 @@
+{
+  "id": "minuet-in-g",
+  "title": "Minuet in G (simplified)",
+  "composer": "Christian Petzold",
+  "level": 4,
+  "genres": [
+    "classical"
+  ],
+  "bpm": 100,
+  "hands": "both",
+  "publicDomain": true,
+  "abc": "X:1\nM:3/4\nL:1/8\n%%score {RH | LH}\nV:RH clef=treble\nV:LH clef=bass\nK:G\n[V:RH]\nd2 GA Bc | d2 G2 G2 | e2 cd ef | g2 G2 G2 |\nc2 dc BA | B2 cB AG | F2 GA BG | A6 |\nd2 GA Bc | d2 G2 G2 | e2 cd ef | g2 G2 G2 |\nc2 dc BA | B2 cB AG | A2 BA GF | G6 |]\n[V:LH]\nG,6 | B,6 | C6 | B,6 |\nA,6 | G,6 | D,6 | D,6 |\nG,6 | B,6 | C6 | B,6 |\nA,6 | G,6 | D,6 | G,6 |]",
+  "tip": "Count 1-2-3 like a slow dance. The left hand holds each note for the whole bar."
+}
