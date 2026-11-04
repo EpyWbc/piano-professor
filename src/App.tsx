@@ -21,6 +21,8 @@ const ROUTES: Record<string, ComponentType<ScreenProps>> = {
   songs: lazy(() => import('./screens/Songs')),
   keyboard: lazy(() => import('./screens/Keyboard')),
   metronome: lazy(() => import('./screens/Metronome')),
+  practice: lazy(() => import('./screens/Practice')), // not in the nav: started from Today
+  sounds: lazy(() => import('./screens/Sounds')), // not in the nav: linked from Keyboard + Songs
   me: lazy(() => import('./screens/Me')),
 }
 
