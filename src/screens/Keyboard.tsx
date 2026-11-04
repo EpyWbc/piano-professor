@@ -56,6 +56,7 @@ export default function Keyboard({ params }: ScreenProps) {
         <h1>My Keyboard</h1>
         <p className="lead">{kb.brand} {kb.model}. Tap any button to see what it does.</p>
       </header>
+      <a href="#/sounds" className="btn btn-quiet" style={{ alignSelf: 'flex-start' }}>🎨 Sound Explorer: fun sound combos to try</a>
 
       <div className="kb-panel" role="group" aria-label={`${kb.model} control panel`}>
         {GROUPS.map(([group, title]) => {

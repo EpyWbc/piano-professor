@@ -1,0 +1,15 @@
+[
+  { "id": "twinkle-music-box", "emoji": "✨", "songId": "twinkle-twinkle", "tone": 4, "idea": "A twinkly music box for a twinkly little star.", "tempoHint": "Slow and dreamy" },
+  { "id": "hot-cross-buns-marimba", "emoji": "🥐", "songId": "hot-cross-buns", "tone": 6, "rhythm": 68, "idea": "Mellow marimba with a laid-back bossa nova sway." },
+  { "id": "mary-banjo-hoedown", "emoji": "🐑", "songId": "mary-had-a-little-lamb", "tone": 49, "rhythm": 100, "idea": "Mary goes to the barn dance: banjo plus a stompin' hoedown." },
+  { "id": "au-clair-flute", "emoji": "🌙", "songId": "au-clair-de-la-lune", "tone": 46, "idea": "A soft flute serenade under the moonlight.", "tempoHint": "Gentle and unhurried" },
+  { "id": "ode-brass-march", "emoji": "🎺", "songId": "ode-to-joy", "tone": 36, "rhythm": 94, "idea": "A grand brass parade: Beethoven marches through town." },
+  { "id": "jingle-tinkle-polka", "emoji": "🔔", "songId": "jingle-bells", "tone": 92, "rhythm": 96, "idea": "Tinkling bells and a bouncy polka, like a sleigh ride in the snow." },
+  { "id": "minuet-harpsichord", "emoji": "👑", "songId": "minuet-in-g", "tone": 53, "rhythm": 99, "idea": "Harpsichord in a palace ballroom, with a waltz to dance along to.", "tempoHint": "Turn the tempo way down" },
+  { "id": "fur-elise-electric", "emoji": "💌", "songId": "fur-elise", "tone": 108, "idea": "Für Elise on a warm electric piano: the same love letter in a cosy new voice." },
+  { "id": "canon-strings", "emoji": "💐", "songId": "canon-in-d", "tone": 31, "idea": "Lush strings, like a wedding in a sunlit chapel." },
+  { "id": "free-church-organ", "emoji": "👻", "songId": null, "tone": 10, "idea": "Spooky church organ: hold low chords and let them rumble." },
+  { "id": "free-steel-drums", "emoji": "🏝️", "songId": null, "tone": 94, "rhythm": 26, "idea": "Steel drums at the beach: play anything sunny over a calypso groove." },
+  { "id": "free-jazz-sax", "emoji": "🎷", "songId": null, "tone": 39, "rhythm": 85, "idea": "Late-night jazz club: smooth alto sax over a swing beat." },
+  { "id": "free-space-choir", "emoji": "🚀", "songId": null, "tone": 69, "idea": "Floating in space with a choir: slow notes, lots of air." }
+]

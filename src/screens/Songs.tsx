@@ -48,6 +48,7 @@ function SongList() {
           </a>
         ))}
         {!songs.length && <p className="lead">No songs match. Try "All".</p>}
+        <a href="#/sounds" className="card song-card"><strong className="song-card-title">🎨 Sound Explorer</strong><span className="song-meta">Play your songs with fun sounds and rhythms</span></a>
       </div>
 
       {!genre && modern.length > 0 && (
