@@ -1,0 +1,14 @@
+{
+  "id": "fur-elise",
+  "title": "Für Elise (opening, simplified)",
+  "composer": "Ludwig van Beethoven",
+  "level": 4,
+  "genres": [
+    "classical"
+  ],
+  "bpm": 40,
+  "hands": "both",
+  "publicDomain": true,
+  "abc": "X:1\nM:3/8\nL:1/16\n%%score {RH | LH}\nV:RH clef=treble\nV:LH clef=bass\nK:Am\n[V:RH]\ne^d | e^d eB=dc | A2 zCEA | B2 zE^GB | c2 zEe^d |\ne^d eB=dc | A2 zCEA | B2 zEcB | A4 |]\n[V:LH]\nz2 | z6 | A,6 | E,6 | A,6 |\nz6 | A,6 | E,6 | A,4 |]",
+  "tip": "Rock gently between E and D sharp (the black key). The left hand plays one note when the right hand lands on A, B or C."
+}

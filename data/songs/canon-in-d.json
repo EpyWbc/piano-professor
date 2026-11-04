@@ -1,0 +1,15 @@
+{
+  "id": "canon-in-d",
+  "title": "Canon in D (very simplified)",
+  "composer": "Johann Pachelbel",
+  "level": 5,
+  "genres": [
+    "classical",
+    "wedding"
+  ],
+  "bpm": 60,
+  "hands": "both",
+  "publicDomain": true,
+  "abc": "X:1\nM:4/4\nL:1/4\n%%score {RH | LH}\nV:RH clef=treble\nV:LH clef=bass\nK:D\n[V:RH]\nf2 e2 | d2 c2 | B2 A2 | B2 c2 |\nd2 c2 | B2 A2 | G2 F2 | G2 E2 | d4 |]\n[V:LH]\nD,2 A,,2 | B,,2 F,,2 | G,,2 D,,2 | G,,2 A,,2 |\nD,2 A,,2 | B,,2 F,,2 | G,,2 D,,2 | G,,2 A,,2 | D,4 |]",
+  "tip": "The left hand repeats the same 8 notes the whole time. Learn it first until it feels automatic."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "hot-cross-buns",
+  "title": "Hot Cross Buns",
+  "composer": "Traditional (English)",
+  "level": 1,
+  "genres": [
+    "folk",
+    "kids"
+  ],
+  "bpm": 90,
+  "hands": "right",
+  "publicDomain": true,
+  "abc": "X:1\nM:4/4\nL:1/4\nK:C\n!3!E !2!D !1!C2 | E D C2 | C/C/C/C/ !2!D/D/D/D/ | !3!E D C2 |]",
+  "tip": "Three fingers only: 3 on E, 2 on D, 1 (thumb) on C. The quick notes are just twice as fast."
+}

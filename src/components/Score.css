@@ -1,0 +1,13 @@
+.score {
+  width: 100%;
+  color: var(--ink); /* abcjs draws with currentColor, so dark mode just works */
+  background: var(--surface);
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+}
+.score .abcjs-v0, .score .abcjs-v1 { transition: opacity 0.2s; }
+.score[data-dim='0'] .abcjs-v0,
+.score[data-dim='1'] .abcjs-v1 { opacity: 0.25; }
+/* Notes sounding right now (set by the Songs screen's timing callback). */
+.score .score-now { fill: var(--accent); stroke: var(--accent); }
